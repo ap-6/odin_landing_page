@@ -1,7 +1,8 @@
 body {
     display: flex;
     flex-direction: column;
-
+    font-family: "Arial", sans-serif;
+    margin: 0px;
 }
 
 /* Header */
@@ -11,12 +12,14 @@ body {
     flex-direction: row;
     background-color: #1F2937;
     align-items: center;
+    padding: 0px 150px;
 }
 
 .header-1-title {
     color: #F9FAF8; 
     margin-right: auto;
     font-size: 24px;
+    font-weight: 800;
 }
 
 .header-1-links {
@@ -25,7 +28,15 @@ body {
     gap: 10px;
     list-style-type: none;
     font-size: 18px;
+}
 
+a {
+    color: #E5E7EB; 
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
 }
 
 /* Container 1 */
@@ -36,11 +47,13 @@ body {
     background-color: #1F2937;
     justify-content: center;
     align-items: center;
+    padding: 50px 150px;
 }
 
 .container-1a {
     display: flex;
     flex-direction: column;
+    max-width: 40%;
 }
 
 .container-1a-header {
@@ -55,7 +68,12 @@ body {
 }
 
 .container-1b {
+    align-self: flex-end;
+}
 
+.container-1-image {
+    max-width: 80%;
+    height: auto;
 }
 
 .button1 {
@@ -64,15 +82,17 @@ body {
     border-radius: 8px;
     border: 2px solid #3882F6;
     padding: 5px 15px;
+    align-self: flex-start;
 }
 
-/* Container 2 */
+/* Container 2 images*/
 
 .container-2 {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 100px;
 }
 
 .container-2b {
@@ -84,25 +104,42 @@ body {
     margin-bottom: 0px;
 }
 
-/* Container 3 */
+/* Container 3 Quote */
 
 .container-3 {
     background-color: #E5E7EB;
     display: flex;
     flex-direction: column;
     align-items: center;
+    
+}
+
+.container-3-quote{
+    display: flex;
+    flex-direction: column;
+    max-width: 60%;
+    padding: 80px;
 }
 
 .container-3a {
     color: #1F2937;
+    font-size: 30px;
+    font-style: italic;
+    font-weight: 50;
+    padding: 0px;
 
 }
 
 .container-3b {
     color: #1F2937;
+    align-self: flex-end;
+    font-weight: 800;
+    font-size: 15px;
 }
 
-/* Container 4 */
+
+
+/* Container 4 sign up */
 
 .container-4 {
     display: flex;
@@ -111,7 +148,6 @@ body {
 
 }
 
-
 .container-4-card {
     background-color: #3882F6;
     margin: 25px;
@@ -119,6 +155,8 @@ body {
     padding: 0px;
     display: flex;
     flex-direction: row;
+    border-radius: 10px;
+    padding: 25px 50px;
 }
 
 .container-4a {
