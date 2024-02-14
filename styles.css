@@ -108,15 +108,36 @@ a:hover {
     justify-content: center;
     align-items: center;
     padding: 100px;
+
+}
+
+.container-2a {
+    font-size: 36px;
+    font-weight: 800;
 }
 
 .container-2b {
     display: flex;
     flex-direction: row;
+    text-align: center;
     list-style-type: none;
     gap: 20px;
     padding: 0px;
     margin-bottom: 0px;
+
+}
+
+.container-2b > li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container-2-img {
+    border: 5px solid #3882F6;
+    border-radius: 10px;
+    max-width: 60%;
+
 }
 
 /* Container 3 Quote */
