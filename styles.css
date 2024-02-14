@@ -3,6 +3,7 @@ body {
     flex-direction: column;
     font-family: "Arial", sans-serif;
     margin: 0px;
+    font-size: 16px;
 }
 
 /* Header */
@@ -107,13 +108,15 @@ a:hover {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 100px;
+    padding: 30px 20vw;
 
 }
 
 .container-2a {
     font-size: 36px;
     font-weight: 800;
+    padding-bottom: 20px;
+    padding-top: 20px;
 }
 
 .container-2b {
@@ -131,6 +134,10 @@ a:hover {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+li > div {
+    padding-top: 10px;
 }
 
 .container-2-img {
@@ -186,6 +193,7 @@ a:hover {
 
 .container-4-card {
     background-color: #3882F6;
+    color: #F9FAF8; 
     margin: 50px;
     list-style-type: none;
     padding: 0px;
@@ -195,8 +203,20 @@ a:hover {
     padding: 25px 50px;
 }
 
+.white-text {
+    color: #F9FAF8; 
+}
+
+.bold-text {
+    font-weight: 800;
+}
+
 .container-4a {
     max-width: 80%;
+}
+
+.container-4a-title {
+    font-size: 20px;
 }
 
 .container-4b {
