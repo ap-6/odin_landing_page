@@ -68,7 +68,15 @@ a:hover {
 }
 
 .container-1b {
-    align-self: flex-end;
+    align-self: stretch;
+    background-color: grey;
+    margin-left: auto;
+    color: #E5E7EB;
+    padding: 0px 100px; 
+    
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
 }
 
 .container-1-image {
@@ -78,11 +86,18 @@ a:hover {
 
 .button1 {
     background-color: #3882F6;
+    font-size: 18px;
     color: #F9FAF8; 
     border-radius: 8px;
     border: 2px solid #3882F6;
     padding: 5px 15px;
     align-self: flex-start;
+
+    margin-top: 10px;
+}
+
+.container-1-placeholder {
+
 }
 
 /* Container 2 images*/
@@ -150,7 +165,7 @@ a:hover {
 
 .container-4-card {
     background-color: #3882F6;
-    margin: 25px;
+    margin: 50px;
     list-style-type: none;
     padding: 0px;
     display: flex;
@@ -160,18 +175,20 @@ a:hover {
 }
 
 .container-4a {
-
+    max-width: 80%;
 }
 
 .container-4b {
     align-self: center;
+    margin-left: auto;
 }
 .button2 {
     background-color: #3882F6;
     color: #F9FAF8; 
     border-radius: 8px;
     border: 2px solid white;
-    padding: 5px 15px;
+    padding: 5px 25px;
+
 }
 
 /* Footer */
@@ -180,4 +197,6 @@ a:hover {
     background-color: #1F2937;
     color: #F9FAF8;
     text-align: center;
+    padding: 30px;
+
 }
