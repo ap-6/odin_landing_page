@@ -97,10 +97,6 @@ a:hover {
     margin-top: 10px;
 }
 
-.container-1-placeholder {
-
-}
-
 /* Container 2 images*/
 
 .container-2 {
@@ -143,7 +139,7 @@ li > div {
 .container-2-img {
     border: 5px solid #3882F6;
     border-radius: 10px;
-    max-width: 60%;
+    max-width: 70%;
 
 }
 
@@ -177,7 +173,7 @@ li > div {
     color: #1F2937;
     align-self: flex-end;
     font-weight: 800;
-    font-size: 15px;
+    font-size: 20px;
 }
 
 
